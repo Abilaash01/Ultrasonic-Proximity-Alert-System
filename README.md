@@ -7,7 +7,7 @@ A servo-mounted ultrasonic scanner that detects nearby objects, displays real-ti
 ## 🔎 Overview
 
 The **Ultrasonic Proximity Alert System** uses an ultrasonic range sensor mounted on a rotating servo to continuously scan the environment.  
-When an object is detected within a configurable threshold (e.g., **0–40 cm**), the system:
+When an object is detected within a configurable threshold (e.g., **0–30 cm**), the system:
 
 - Stops the servo to “lock” onto the object
 - Displays **OBSTACLE DETECTED** and the measured distance on a 16×2 I²C LCD
@@ -64,7 +64,7 @@ Adjust according to your wiring — example layout:
   - LCD displays “SCANNING” + distance.
 
 ### 4. **Object Detection**
-- If distance ≤ threshold (e.g., 40 cm):
+- If distance ≤ threshold (e.g., 30 cm):
   - Servo freezes at its current angle.
   - LCD shows **OBSTACLE DETECTED** and range.
   - Buzzer beeps.
