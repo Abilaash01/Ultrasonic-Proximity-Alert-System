@@ -19,6 +19,10 @@ This project demonstrates embedded systems concepts such as real-time sensor mea
 
 ---
 
+![alt text](https://github.com/Abilaash01/Ultrasonic-Proximity-Alert-System/blob/main/Ultrasonic%20Proximity%20Circuit.png)
+
+---
+
 ## 🎯 Project Goals
 
 - Implement real-time distance measurement using an ultrasonic sensor
