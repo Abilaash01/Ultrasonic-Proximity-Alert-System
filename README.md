@@ -70,7 +70,7 @@ These components enhance usability but are not required for detection:
 
 ### Outputs
 - Servo motor (PWM control)
-- LCD display (I²C)
+- LCD display (I2C)
 - Buzzer alert (GPIO)
 
 ### Controller
