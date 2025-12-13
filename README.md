@@ -19,6 +19,16 @@ This project demonstrates embedded systems concepts such as real-time sensor mea
 
 ---
 
+## 🎯 Project Goals
+
+- Implement real-time distance measurement using an ultrasonic sensor
+- Design a scanning mechanism using a servo motor
+- Apply state-machine logic for system behavior
+- Provide immediate visual and audible feedback
+- Build a reliable, low-cost obstacle detection system
+
+---
+
 ## 🛠️ Hardware Components
 
 - ESP32 DevKit (WROVER)
@@ -28,6 +38,43 @@ This project demonstrates embedded systems concepts such as real-time sensor mea
 - Active or passive piezo buzzer
 - SPST toggle switch
 - Breadboard + jumper wires
+
+---
+
+## 🧱 Dependencies & Failure Impact
+
+### Hard Dependencies
+These components are required for core system functionality:
+
+- **Ultrasonic sensor** – primary distance measurement
+- **Servo motor** – enables environmental scanning
+- **ESP32 PWM and GPIO** – required for real-time control and signal handling
+
+### Soft Dependencies
+These components enhance usability but are not required for detection:
+
+- **LCD display** – visualization of system state and distance measurements  
+  *(System remains functional without display output)*
+
+### Failure Impact
+- **Ultrasonic sensor failure** → No obstacle detection possible
+- **LCD failure** → Detection and alerting continue without visual feedback
+
+---
+
+## 🏗️ High-Level Architecture
+
+### Inputs
+- Ultrasonic echo signal
+- System ON/OFF switch
+
+### Outputs
+- Servo motor (PWM control)
+- LCD display (I²C)
+- Buzzer alert (GPIO)
+
+### Controller
+- **ESP32 DevKit (WROVER)**
 
 ---
 
