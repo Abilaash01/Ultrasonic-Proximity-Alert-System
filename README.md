@@ -10,7 +10,7 @@ The **Ultrasonic Proximity Alert System** uses an ultrasonic range sensor mounte
 When an object is detected within a configurable threshold (e.g., **0–30 cm**), the system:
 
 - Stops the servo to “lock” onto the object
-- Displays **OBSTACLE DETECTED** and the measured distance on a 16×2 I²C LCD
+- Displays **OBSTACLE DETECTED** and the measured distance on a 16×2 I2C LCD
 - Activates a buzzer alert
 - Returns to scanning mode once the object is no longer detected
 - Can be toggled ON/OFF using an external switch
