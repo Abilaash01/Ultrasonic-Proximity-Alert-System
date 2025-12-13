@@ -34,7 +34,7 @@ This project demonstrates embedded systems concepts such as real-time sensor mea
 - ESP32 DevKit (WROVER)
 - HC-SR04 ultrasonic sensor
 - SG90 servo motor
-- 16×2 I²C LCD display
+- 16×2 I2C LCD display
 - Active piezo buzzer
 - Mini slide switch
 - Breadboard + jumper wires
