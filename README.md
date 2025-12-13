@@ -19,10 +19,6 @@ This project demonstrates embedded systems concepts such as real-time sensor mea
 
 ---
 
-![alt text](https://github.com/Abilaash01/Ultrasonic-Proximity-Alert-System/blob/main/Ultrasonic%20Proximity%20Circuit.png)
-
----
-
 ## 🎯 Project Goals
 
 - Implement real-time distance measurement using an ultrasonic sensor
@@ -95,6 +91,8 @@ Adjust according to your wiring — example layout:
 | LCD SDA | GPIO 4 | I2C data |
 | LCD SCL | GPIO 2 | I2C clock |
 | Switch | 5V | System ON/OFF input |
+
+![alt text](https://github.com/Abilaash01/Ultrasonic-Proximity-Alert-System/blob/main/Ultrasonic%20Proximity%20Circuit.png)
 
 ---
 
