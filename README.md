@@ -92,7 +92,7 @@ Adjust according to your wiring — example layout:
 | LCD SCL | GPIO 2 | I2C clock |
 | Switch | 5V | System ON/OFF input |
 
-![alt text](https://github.com/Abilaash01/Ultrasonic-Proximity-Alert-System/blob/main/Ultrasonic%20Proximity%20Circuit%20Diagram.png)
+![alt text](https://github.com/Abilaash01/Ultrasonic-Proximity-Alert-System/blob/main/Proximity%20System%20Circuit%20Diagram.png)
 
 ---
 
